@@ -24,7 +24,7 @@ const Hero = () => {
                         <span className="text-gradient">{PERSONAL_INFO.name}</span>
                     </h1>
                     <p className="text-lg md:text-xl text-text-dim mb-10 max-w-lg leading-relaxed">
-                        {PERSONAL_INFO.title}. {PERSONAL_INFO.bio}
+                        {PERSONAL_INFO.title}. 
                     </p>
                     <div className="flex flex-wrap gap-4">
                         <a

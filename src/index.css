@@ -7,7 +7,9 @@
     font-family: "Outfit", sans-serif;
   }
 
-  
+  button{
+    cursor: pointer;
+  }
 @theme {
   --color-primary: #00ffaa;
   --color-primary-dark: #00cc88;

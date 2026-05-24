@@ -46,10 +46,10 @@ const About = () => {
 
                     <div className="flex-1 grid grid-cols-2 gap-4">
                         <div className="glass-card p-6 text-center space-y-2">
-                            <div className="text-3xl font-bold text-primary">2025</div>
-                            <div className="text-xs text-text-dim uppercase tracking-wider">Promotion</div>
+                            <div className="text-3xl font-bold text-primary">+5</div>
+                            <div className="text-xs text-text-dim uppercase tracking-wider">Responsabilités</div>
                         </div>
-                        <div className="glass-card p-6 text-center space-y-2 mt-8">
+                        <div className="glass-card p-6 text-center space-y-2 ">
                             <div className="text-3xl font-bold text-primary">2</div>
                             <div className="text-xs text-text-dim uppercase tracking-wider">Stages OCP</div>
                         </div>
@@ -57,7 +57,7 @@ const About = () => {
                             <div className="text-3xl font-bold text-primary">4+</div>
                             <div className="text-xs text-text-dim uppercase tracking-wider">Certificats</div>
                         </div>
-                        <div className="glass-card p-6 text-center space-y-2 mt-8">
+                        <div className="glass-card p-6 text-center space-y-2 ">
                             <div className="text-3xl font-bold text-primary">10+</div>
                             <div className="text-xs text-text-dim uppercase tracking-wider">Compétences</div>
                         </div>

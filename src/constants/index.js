@@ -7,8 +7,8 @@ export const PERSONAL_INFO = {
     linkedin: "yassine-souaf",
     github: "YSOUAF",
     address: "Benslimane / Khouribga, Maroc",
-    bio: "Élève Ingénieur GPEE intéressé par le traitement des eaux, la gestion des déchets industriels et l’environnement. À la recherche d’un PFA (Projet de Fin d'Année).",
-    image: "/yassine.jpg",
+    bio: "Élève Ingénieur en Génie des Procédés, de l’Énergie et de l’Environnement. À la recherche d’un PFA (Projet de Fin d'Année).",
+    image: "/image.png",
 };
 
 export const EXPERIENCES = [
@@ -79,7 +79,7 @@ export const SKILLS = {
         "Analyse physico-chimique", "Systèmes de déminéralisation", "Osmose Inverse", "Gestion des déchets industriels"
     ],
     simulation: [
-        "MATLAB", "ANSYS (CFD)", "MEF", "MVF", "MDF"
+        "MATLAB", "ANSYS (CFD)", "AUTOCAD" , "SOLIDWORKS", "PROSIM"
     ],
     software: [
         "C", "C++", "Python", "Shell", "Git", "Linux"

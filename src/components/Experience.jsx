@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <section id="experience" className="py-24 bg-dark-accent/50">
             <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-gradient">Expérience Professionnelle</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-gradient">Expériences Professionnelles</h2>
 
                 <div className="space-y-12">
                     {EXPERIENCES.map((exp, index) => (
