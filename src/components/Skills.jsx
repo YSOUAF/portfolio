@@ -5,7 +5,8 @@ import { Zap, Droplets, BarChart, Code } from 'lucide-react';
 
 const Skills = () => {
     const categories = [
-        { title: 'Génie des Procédés & Énergie', key: 'process_energy', icon: Zap },
+        { title: 'Génie des Procédés ', key: 'process_energy', icon: Zap },
+        { title: 'Énergie & Thermique', key: 'energy_thermique', icon: Zap },
         { title: 'Eau & Environnement', key: 'water_env', icon: Droplets },
         { title: 'Simulation & Modélisation', key: 'simulation', icon: BarChart },
         { title: 'Programmation & Outils', key: 'software', icon: Code },

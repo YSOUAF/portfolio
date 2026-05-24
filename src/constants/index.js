@@ -57,29 +57,53 @@ export const PROJECTS = [
     {
         title: "GreenCollect",
         description: "Développement d’une solution éco-tech intelligente pour la collecte et la valorisation des déchets ménagers, intégrant un système de géolocalisation et une plateforme numérique de gestion des flux de déchets dans le contexte marocain.",
+        image: "/GreenCollect (1).png",
         tags: ["Eco-Tech", "Digitalisation", "Environnement"]
     },
+   
     {
+        title: "A-CAES — Stockage d’énergie par air comprimé adiabatique piloté par IA",
+        description: "Conception et modélisation d’un système de stockage d’énergie par air comprimé adiabatique, optimisé par intelligence artificielle et appliqué au site industriel OCP Khouribga.",
+        image: "/caes.jpg",
+        tags: ["Énergie", "IA", "Industrie", "OCP"]
+    },
+    {
+        title: "Minishell (1337)",
+        description: "Développement d’un shell Unix complet en C, gestion des processus, pipes, redirections, parsing et exécution de commandes selon les standards 42.",
+        image: "/minishell.gif",
+        tags: ["C", "Systèmes", "Unix", "1337"]
+    },
+    {
+        title: "Cub3D (1337)",
+        description: "Création d’un moteur de rendu 3D basé sur le raycasting, gestion des textures, collisions et affichage en temps réel.",
+        image: "/cub3d.jpg",
+        tags: ["C", "Graphisme", "Game Dev", "Raycasting"]
+    },
+     {
         title: "Dimensionnement d’une Tour de Refroidissement Industrielle",
         description: "Bilans matière et énergie, étude thermique et analyse des paramètres influençant le rendement et la consommation d’eau.",
+        image: "",
         tags: ["Génie Chimique", "Thermique", "Industrie"]
     },
     {
         title: "Résolution des Phénomènes de Transport",
         description: "Analyse des équations de chaleur et de masse (conduction, diffusion, convection), résolution par les méthodes des éléments finis (MEF), volumes finis (MVF) et différences finies (MDF).",
+        image: "",
         tags: ["Simulation", "Physique", "Mathématiques"]
-    }
-];
-
+    },
+]; 
 export const SKILLS = {
     process_energy: [
-        "Opérations unitaires", "Bilans matière/énergie", "Psychrométrie", "Dimensionnement thermique"
+        "Opérations unitaires", "les réacteurs", "Bilans matière/énergie", "Dimensionnement des équipements", "Procédés industriels"
+    ],
+    energy_thermique: [
+        "Efficacité énergétique", "Hydrogène vert", "Stockage d’énergie", "Production énergétique", "HVAC", "Énergies renouvelables"
     ],
     water_env: [
-        "Analyse physico-chimique", "Systèmes de déminéralisation", "Osmose Inverse", "Gestion des déchets industriels"
+        "Traitement des eaux", "Dessalement", "Analyse physico-chimique", "Systèmes de déminéralisation", "Osmose Inverse", "Gestion des déchets industriels"
     ],
     simulation: [
-        "MATLAB", "ANSYS (CFD)", "AUTOCAD" , "SOLIDWORKS", "PROSIM"
+        "MATLAB", "ANSYS (CFD)", "AUTOCAD", "SOLIDWORKS", "PROSIM"
     ],
     software: [
         "C", "C++", "Python", "Shell", "Git", "Linux"
@@ -112,7 +136,7 @@ export const CERTIFICATES = [
 export const LEADERSHIP = [
     {
         role: "Campus Director",
-        org: "Hult Prize",
+        org: "Hult Prize ENSA Khouribga",
         duration: "2025 – 2026",
         description: "Pilotage stratégique de la compétition, management d’équipe et représentation officielle de la fondation à l’ENSAK."
     },
@@ -122,12 +146,20 @@ export const LEADERSHIP = [
         duration: "2025",
         description: "Promotion de l'innovation durable et pilotage des formations techniques en GPEE."
     },
+
     {
-        role: "Responsable Sponsoring & Logistique",
-        org: "Hult Prize",
-        duration: "2023 – 2025",
-        description: "Négociation de partenariats et gestion opérationnelle des événements."
+        "role": "Responsable Sponsoring",
+        "organization": "Hult Prize ENSA Khouribga",
+        "duration": "2024 – 2025",
+        "description": "Négociation et gestion des partenariats avec des sponsors, recherche de financements et développement des relations avec les entreprises partenaires pour soutenir les événements."
+    },
+    {
+        "role": "Responsable Logistique",
+        "organization": "Hult Prize ENSA Khouribga",
+        "duration": "2023 – 2024",
+        "description": "Organisation opérationnelle des événements, coordination des équipes, gestion du matériel et assurance du bon déroulement logistique avant et pendant les compétitions."
     }
+
 ];
 
 export const LANGUAGES = [
